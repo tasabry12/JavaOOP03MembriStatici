@@ -12,7 +12,7 @@ public class Punto {
 	public Punto(int _x, int _y) {
 		setX(_x); 
 		setY(_y);
-		conta ++;                       // il coastruttore accede a conta
+		conta ++;                       // il costruttore accede a conta
 	}
 	
 	static public int getConta(){      // metodo statico per poterlo richiamare nel main
